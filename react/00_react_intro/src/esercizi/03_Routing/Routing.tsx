@@ -1,7 +1,6 @@
 import { BrowserRouter, Link, Navigate, Route, Routes } from "react-router-dom";
 import Login from "./pages/login/Login";
 import Admin from "./pages/Admin";
-import Catalog from "./pages/catalog/Catalog";
 import Home from "./pages/Home";
 import Navbar from "./common/Navbar";
 import PhotoDetails from "./pages/catalog/PhotoDetails";
@@ -9,9 +8,8 @@ import Signin from "./pages/login/pages/Signin";
 import Registration from "./pages/login/pages/Registration";
 import LostPassword from "./pages/login/pages/LostPassword";
 import PrivateRoute from "./common/PrivateRoute";
-import { lazy } from "react";
+import Catalog from "./pages/catalog/Catalog";
 
-// const Catalog = lazy (() => import("./pages/catalog/Catalog"));
 const Routing = () => {
   return (
     <BrowserRouter>

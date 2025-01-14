@@ -1,0 +1,14 @@
+.button {
+  background-color: #e63946; // rosso di base
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+
+  &:hover {
+    background-color: #b71c1c; // sfumatura più scura di rosso per hover
+  }
+}

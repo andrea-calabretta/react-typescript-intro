@@ -12,6 +12,8 @@ import Catalog from './pages/catalog/Catalog';
 import PhotoDetails from './pages/catalog/PhotoDetails';
 import Home from './pages/Home';
 
+
+
 const MyRoutes = () => {
   const element = useRoutes([
     {
